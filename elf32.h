@@ -21,3 +21,5 @@ typedef struct {
 	Elf32_Half		e_shstrndx;
 } Elf32_Ehdr;
 
+int elf32_validate_ident(void *data);
+#endif

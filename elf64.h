@@ -20,3 +20,6 @@ typedef struct {
 	Elf64_Half		e_shnum;
 	Elf64_Half		e_shstrndx;
 } Elf64_Ehdr;
+
+int elf64_validate_ident(void *data);
+#endif
